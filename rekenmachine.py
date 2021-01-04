@@ -23,13 +23,15 @@ def multiply(x, y):                                                #To multiply 
 def divide(x, y):                                                  #To divide two numbers
     return x / y
 
-def main():
+def menu():
     print("Select operation.")
     print("1.Add")
     print("2.Subtract")
     print("3.Multiply")
     print("4.Divide")
 
+def main():
+    menu()
     while True:
         choice = input("Enter choice(1/2/3/4): ")                     #To let the user choose an input
 
